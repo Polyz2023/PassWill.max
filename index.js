@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname,  'dist', 'index.html'));
 });
 // Прослушивание порта 1488
-app.listen(8411, () => {
+app.listen(8511, () => {
     console.log("Server is running on port 1488");
 });
